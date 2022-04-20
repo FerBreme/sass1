@@ -1,0 +1,32 @@
+@import "variables";
+
+.mio-img{
+    height: 80vh;
+}
+
+.card-group{
+    margin: 10px;
+}
+.card{
+    margin: 0 20px;
+}
+
+iframe{
+    margin: 200px 20% 0 20%;
+}
+
+body{
+    background-color: $colorSecundario;
+}
+
+main{
+    background-color: $colorPrincipal;
+    .productos{
+        border: 2px solid black;
+        margin: 5px;
+        .card-title{
+            font-family: $tipografiaProd;
+            font-size: 35px;
+        }
+    }
+}
